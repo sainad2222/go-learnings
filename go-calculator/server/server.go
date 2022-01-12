@@ -2,11 +2,12 @@ package main
 
 import (
 	"context"
-	"github.com/sainad2222/go-calculator/api"
-	"google.golang.org/grpc"
 	"log"
 	"math"
 	"net"
+
+	"github.com/sainad2222/go-calculator/api"
+	"google.golang.org/grpc"
 )
 
 type server struct {
